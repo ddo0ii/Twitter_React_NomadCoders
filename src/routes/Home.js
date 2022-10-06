@@ -3,13 +3,12 @@ import { dbService, storageService } from "fbase";
 import {
   collection,
   addDoc,
-  serverTimestamp,
   query,
   orderBy,
   onSnapshot,
 } from "firebase/firestore";
 import { ref, uploadString, getDownloadURL } from "@firebase/storage";
-import { v4 as uuidv4, v4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 import Nweet from "components/Nweet";
 
 const Home = ({ userObj }) => {

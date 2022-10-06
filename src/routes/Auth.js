@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { authService, firebaseInstance } from "fbase";
+import { authService } from "fbase";
 import {
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
   GoogleAuthProvider,
   GithubAuthProvider,
   signInWithPopup,
