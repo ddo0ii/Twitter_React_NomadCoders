@@ -15,7 +15,9 @@ const Nweet = ({ nweetObj, isOwner }) => {
       // await dbService.doc(`nweets/${nweetObj.id}`).delete();
       // await deleteDoc(NweetTextRef);
       await deleteDoc(doc(getFirestore(), `nweets/${nweetObj.id}`));
-      await deleteObject(ref(storageService, nweetObj.attachmentUrl));
+      if (nweetObj.attachmentUrl) {
+        await deleteObject(ref(storageService, nweetObj.attachmentUrl));
+      }
     }
   };
 
