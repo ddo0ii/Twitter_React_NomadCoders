@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Twitter_React_NomadCoders/static/css/main.a749d3de.css",
+    "main.js": "/Twitter_React_NomadCoders/static/js/main.deb00fc9.js",
+    "index.html": "/Twitter_React_NomadCoders/index.html",
+    "main.a749d3de.css.map": "/Twitter_React_NomadCoders/static/css/main.a749d3de.css.map",
+    "main.deb00fc9.js.map": "/Twitter_React_NomadCoders/static/js/main.deb00fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a749d3de.css",
+    "static/js/main.deb00fc9.js"
+  ]
+}
