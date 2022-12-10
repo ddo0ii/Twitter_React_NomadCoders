@@ -24,3 +24,25 @@ Github : [Github Site로 이동하기](https://github.com/ddo0ii/Twitter_React_N
 Hosting Site : [Hosting Site로 이동하기](https://ddo0ii.github.io/Twitter_React_NomadCoders)
 
 Lecture Site : [Lecture Site로 이동하기](https://nomadcoders.co/nwitter)
+
+YouTube Site : [YouTube Site로 이동하기](https://youtu.be/IvrnrHmEoBo)
+
+<br/>
+
+- Learned <br/>
+1. Firebase
+2. Cloud Firestore
+3. NoSQL Realtime, Query, Filter
+4. Firebase Authentication
+5. Google Cloud Storage
+
+<br/>
+
+- Function <br/>
+1. Email, Google, Github, Social Authentication
+2. Tweet CRUD
+3. Protected Pages
+4. Profile Page
+5. File Upload
+6. Deploy
+7. API Key Security
